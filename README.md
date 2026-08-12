@@ -1,7 +1,5 @@
-<!--[index.html.html](https://github.com/user-attachments/files/31001585/index.html.html)-->
 <!DOCTYPE html>
-<html lang="fr">
-
+<html lang="fr" lang='en'>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -904,7 +902,7 @@
               <div class="map-container">
                         <iframe 
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26589.98703489983!2d-7.653372510255199!3d33.58588179347829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d30010aefb67%3A0x2d895313adb95273!2sCasa%20del%20Gusto%20-%20Casablanca!5e0!3m2!1sen!2sma!4v1784934127258!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" 
-                            loading="lazy">
+                           >
                         </iframe>
                     </div>
 
@@ -944,7 +942,7 @@
                     const name = button.dataset.name || "Produit";
                     const price = button.dataset.price || "0";
 
-                    const message = `السلام عليكم، أريد شراء ${name} بسعر ${price} MAD`;
+                    const message = `Bonjour, je veux acheter ${name} au prix de ${price} MAD`;
                     
                     // قم بتغيير الرقم إلى رقم هاتفك
                     const phone = "212676484479"; 
